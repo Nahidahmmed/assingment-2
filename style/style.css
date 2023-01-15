@@ -1,0 +1,65 @@
+/*--------------------
+ Header Nav Title img btn 
+ ------------------- */
+.group-info {
+    margin-bottom: 50px;
+}
+header {
+    background-color: rgba(255, 144, 14, 0.1);
+    width: 1920px;
+height: 1265px;
+}
+
+.head {
+    display: flex;
+    align-items: center;
+    margin-left: 230px;
+    margin-top: 50px;
+
+}
+
+.h1 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    font-size: 45px;
+    margin-top: 50px;
+    margin-left: 230px;
+}
+
+.navs {
+    display: flex;
+    margin-left: 900px;
+    justify-content: space-between;
+}
+
+nav {
+    margin-left: 40px;
+}
+
+/* Grup-styles */
+.grup {
+    text-align: center;
+}
+
+.header-title {
+    font-weight: 700;
+    font-size: 64px
+}
+
+.header-sub {
+    font-weight: 400;
+    font-size: 16px;
+    color: #727272;
+}
+
+.btn {
+    border: none;
+    border-radius: 8px;
+    font-weight: 600;
+    font-size: 20px;
+    color: #FFFFFF;
+    background-color: #FF900E;
+    padding: 20px 25px;
+    margin-bottom: 50px;
+    margin-top: 27px;
+}
