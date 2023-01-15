@@ -112,6 +112,7 @@ height: 304px;
 .future-items {
     display: flex;
     justify-content: center;
+    margin-top: 130px;
     
 }
 .main-title {
@@ -142,7 +143,111 @@ color: #727272;
    padding: 30px 40px 30px 30px;
     
 }
-.year-btn {
-    margin-left: 1000px;
+
+.future-btn {
+    margin-top: 0%;
+    margin-left: 700px;
+    padding: 20px 35px 10px 35px;
+    font-weight: 700;
+    font-size: 65px;
+    background-color: #FF900E;
+    border-radius: 8px;
+    border: none;
+    color: #FFFFFF;
 }
- 
+.future-btn .btn-sub {
+    font-size: 30px;
+    margin-top: 0;
+}
+.icons {
+    display: flex;
+    margin-left: 200px;
+}
+.icons div {
+    text-align: center;
+    margin-left: 200px;
+    border: 2px solid #FF900E;
+    border-radius: 8px;
+    padding: 45px 35px;
+}
+.icons img {
+
+    width: 45.22px;
+height: 45.22px;
+}
+.icons h1 {
+    margin-top: 0;
+    font-weight: 600;
+font-size: 45px;
+}
+.icons p {
+    margin-top: 0;
+    font-weight: 600;
+font-size: 20px;
+color: #727272;
+}
+.facts-info {
+        margin-left:350px ;
+}
+.facts-title {
+    font-weight: 700;
+    font-size: 45px;
+}
+.facts-sub {
+    font-weight: 400;
+    font-size: 16px;
+    color: #727272;
+}
+.last-imgs {
+    display: flex;
+    justify-content: space-between;
+    margin: 50px 240px;
+
+}
+.last {
+    text-align: center;
+  
+}
+.last h1 {
+    font-weight: 700;
+    font-size: 45px;
+}
+.last p {
+    font-weight: 400;
+font-size: 16px;
+color: #727272;
+}
+footer {
+    text-align: center;
+    border: none;
+    background-color:  #FFF4E7;
+    border-radius: 8px;
+    padding: 40px 400px;
+    margin: 130px 240px;
+}
+.last-work {
+    font-weight: 400;
+font-size: 20px;
+color: #424242;
+}
+
+
+@media screen and (max-width:570px) {
+
+    .navs {
+        display: block;
+        margin-left: 900px;
+        margin-right: 500px;
+        margin-top: 50px;
+        margin-bottom: 20px;
+        justify-content: space-between;
+    }
+    body {
+        width: 570px;
+    }
+    header {
+        background-color: rgba(255, 144, 14, 0.1);
+    }
+    
+    
+}
