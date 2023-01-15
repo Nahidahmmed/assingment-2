@@ -4,10 +4,11 @@
 .group-info {
     margin-bottom: 50px;
 }
+
 header {
     background-color: rgba(255, 144, 14, 0.1);
     width: 1920px;
-height: 1265px;
+    height: 1265px;
 }
 
 .head {
@@ -63,3 +64,85 @@ nav {
     margin-bottom: 50px;
     margin-top: 27px;
 }
+
+/* main part - quick list  */
+.list {
+    display: flex;
+    align-items: center;
+    margin-top: 85px;
+    
+}
+
+.quick-list {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 25px;
+    margin-left: 300px;
+}
+
+.quick-list img {
+    width: 342px;
+    height: 342px;
+}
+.list-info {
+    margin-left: 75px;
+    width: 537px;
+height: 304px;
+}
+.dark {
+    color: #727272;
+}
+.orange {
+    color: #FF900E;
+}
+.list-title {
+    font-weight: 700;
+    font-size: 45px;
+}
+
+.list-sub {
+    font-weight: 400;
+    font-size: 16px;
+    color: #727272;
+}
+/* -------------------
+    future section 
+------------------*/
+
+.future-items {
+    display: flex;
+    justify-content: center;
+    
+}
+.main-title {
+    font-weight: 700;
+font-size: 45px;
+color: #131313;
+}
+.infos p {
+    font-weight: 400;
+font-size: 16px;
+color: #727272;
+}
+.infos h1 {
+    font-weight: 600;
+    font-size: 20px;
+    color: #131313;
+}
+.future-info ul li {
+    background-color: #FFFFFF;
+    gap: 10px;
+}
+.future-img {
+    width: 708px;
+    height: 982px;
+}
+.infos {
+   margin-bottom: 10px;
+   padding: 30px 40px 30px 30px;
+    
+}
+.year-btn {
+    margin-left: 1000px;
+}
+ 
